@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+     
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        url("https://www.thoughtco.com/thmb/Dj2k8FlIpCTV2f4tDSTllNpU3UM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-594852787-589ca2063df78c4758162dc1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.converter-row {
+    
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    background-image:
+        url("https://www.tripsavvy.com/thmb/mPabjGeyXG03OPHTlFoZwFdzfyc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-681951143-5a964e003037130036812ab2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.col {
+    flex-basis: 32%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.col input {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+.dis{
+    padding: 10px;
+}
+.dis1{
+    padding: 24px;
+}
+.dis2{
+    padding: 26px;
+}
